@@ -1,149 +1,152 @@
 body {
-    background-color: #f2ebe3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:  "Montserrat", serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  background-color: #f2ebe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    font-family: "Fraunces", serif;
-    font-size: 2em;
-    line-height: 1em;
+  font-family: "Fraunces", serif;
+  font-size: 2em;
+  line-height: 1em;
 }
+
 h2 {
-    font-family: "Montserrat", serif;
-    font-weight: 400;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 0;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
 }
+
 p {
-    font-size: .85em;
-    line-height: 1.7em;
-    font-weight: 500;
+  font-size: 0.85em;
+  line-height: 1.7em;
+  font-weight: 500;
 }
+
 section {
-    width: 320px;
-    /* padding: 20px; */
-    margin: 20px;
-    border-radius: 15px;
-    background-color: white;
-    overflow: hidden;
-    
+  width: 320px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
 }
+
 .content {
-    padding: 20px
+  padding: 20px;
 }
+
 img {
-    width: 100%;
-    border-radius: 15px 15px  0 0px;
+  width: 100%;
+  border-radius: 15px 15px 0 0px;
 }
-.desktop{
-    display: none;
+.desktop {
+  display: none;
 }
 
 .price {
-    font-family: "Fraunces", serif;
+  font-family: "Fraunces", serif;
 }
 
 button img {
-    width: 15px;
-    height: 15px;
-    margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
 }
+
 .prices {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .price {
-    color: #3c8067;
-    font-size: 2.5em;
-    font-weight: 800;
-    margin: 0 20px 0 0;
-} 
+  color: #3c8067;
+  font-size: 2.5em;
+  font-weight: 800;
+  margin: 0 20px 0 0;
+}
+
 .oldPrice {
-   text-decoration: line-through; 
+  text-decoration: line-through;
 }
 
 button {
- background-color: #3c8067;
- width: 100%;
- border-radius: 8px;
- border: none;
- padding: 10px;
- color: white;
- font-weight: 600;
- display: flex;
- align-items: center;
- justify-content: center;
+  background-color: #3c8067;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 button:hover {
-    background-color: #1b4133;
-    cursor: pointer;
+  background-color: #1b4133;
+  cursor: pointer;
 }
 
 button p {
-    margin: 0;
+  margin: 0;
 }
 
-@media screen and (min-width:600px) {
-    body {
-        flex: none;
-        height: auto;
-        overflow: hidden;
-    }
-    section {
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-        width: 500px;
+@media screen and (min-width: 600px) {
+  body {
+    flex: none;
+    height: auto;
+    overflow: hidden;
+  }
 
-    }
-    .desktop {
-        display: flex;
-        height: 100%;
-    }
+  section {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 500px;
+  }
+  
+  .desktop {
+    display: flex;
+    height: 100%;
+  }
 
-    img {
-        width: 100%;
-        height: 100%;
-        border-radius: 0px 0px  0px 15px;
-    
-    }
-    .mobile {
-        display: none;
-    }
-    .main {
-        width: 60%; 
-    }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 0px 15px;
+  }
+  .mobile {
+    display: none;
+  }
+  .main {
+    width: 60%;
+  }
+  .content {
+    width: 40%;
+  }
+  .content {
+    padding: 30px 30px 30px 30px;
+  }
+  .price {
+    margin: 5px 10px 15px 0;
+    font-size: 1.6em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 0.6em;
+  }
 
-    .content {
-        width: 40%; 
-    }
-    .content {
-        padding: 30px 30px 30px 30px;
-    }
-    .price {
-        margin: 5px 10px 15px 0;
-        font-size: 1.6em;
-    }
-    h1 {
-        font-size: 1.8em;
-    }
-    h2 {
-        font-size: 0.6em;
-    }
-
-   p {
-    font-size: .68em;
-        /* line-height: 1.5em; */
-    } 
-
+  p {
+    font-size: 0.68em;
+  }
 }

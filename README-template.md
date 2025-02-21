@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/yvonnem111/recipe-page-main/blob/main/index.html)
-- Live Site URL: [Add live site URL here](https://htmlpreview.github.io/?https://github.com/yvonnem111/recipe-page-main/blob/main/index.html)
+- Solution URL: [Add solution URL here](https://github.com/yvonnem111/product-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://htmlpreview.github.io/?https://github.com/yvonnem111/product-preview-card-component-main/blob/main/index.html)
 
 ## My process
 
@@ -46,11 +46,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
